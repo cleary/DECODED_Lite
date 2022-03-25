@@ -24,6 +24,8 @@ You can play the sound once per cycle using:
 sound "bd"
 ```
 
+&nbsp;
+
 Here are some other sounds to try
  - `sd` a snare drum
  - `hh` a high hat
