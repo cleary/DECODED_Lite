@@ -1,6 +1,6 @@
 # DECODED Lite --
 
-An introductory workshop to livecoding in Estuary
+A short, introductory workshop to livecoding in Estuary
 
 ## Audio Workshop
 
