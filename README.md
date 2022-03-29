@@ -143,7 +143,7 @@ Choose **Punctual** from the language selection box
 
 `circle` creates a circle
 
-To make a circle appear on our screen, we need to tell it the **position**, and the **diameter** we want it to have, and the **output** we want it to use
+To make a circle appear on our screen, we need to tell it the **position**, the width or **diameter** we want it to have, and the **output** we want it to use
 
 ```
 circle [0,0] 0.5 >> video
@@ -168,8 +168,8 @@ Here are some more shapes to try - see the [Punctual Reference](https://github.c
 
 Here are some more **outputs** to try
 
-| `red` | `green` | `blue` | `hsv` | `rgb` | `rgba` |
-|-------|---------|--------|-------|-------|--------|
+| `red` | `green` | `blue` | `hsv` | `rgba` |
+|-------|---------|--------|-------|--------|
 
 
 You can make more circles (shapes) by adding more values
