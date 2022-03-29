@@ -27,7 +27,7 @@ sound "bd"
 **Stop** the sound by putting `--` in front of it, or delete all the code and evaluate an empty cell
 
 ```
-sound "bd"
+-- sound "bd"
 ```
 
 &nbsp;
@@ -149,6 +149,12 @@ To make a circle appear on our screen, we need to tell it the **position**, the 
 circle [0,0] 0.5 >> video
 ```
 
+To remove our circle, we can **comment** the line, or delete the pattern and evaluate the empty cell
+
+```
+-- circle [0,0] 0.5 >> video
+```
+
 You can move it around by changing the **position** values - `-1.0` to `1.0` keeps it on screen
 
 ```
@@ -166,10 +172,16 @@ Here are some more shapes to try - see the [Punctual Reference](https://github.c
 | `hline` | `vline` | `point` | `rect` |
 |---------|---------|---------|----------|
 
-Here are some more **outputs** to try
+You can change the way it appears using different **outputs**
 
-| `red` | `green` | `blue` | `hsv` | `rgba` |
-|-------|---------|--------|-------|--------|
+```
+circle [0,0] 0.9 >> red
+```
+
+Here are some more outputs to try
+
+| `green` | `blue` | `hsv` | `rgba` |
+|---------|--------|-------|--------|
 
 
 You can make more circles (shapes) by adding more values
