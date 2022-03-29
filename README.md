@@ -10,7 +10,7 @@ Open https://estuary.mcmaster.ca and enter "Solo Mode"
 
 &nbsp;
 
-Choose Minitidal from the language selection box
+Choose **Minitidal** from the language selection box
 
 *Minitidal is based on the popular [Tidalcycles](https://tidalcycles.org/) livecoding language*
 
@@ -128,3 +128,92 @@ More effects to try:
 
 | `# gain` | `# end` | `# vowel` | `# pan` | `# hcutoff` | `# cutoff` |
 |----------|---------|-----------|---------|-------------|------------|
+
+## Visual Workshop
+
+Open https://estuary.mcmaster.ca and enter "Solo Mode"
+
+*Estuary is a free online tool for making music and visuals in a browser*
+
+&nbsp;
+
+Choose **Punctual** from the language selection box
+
+*[Punctual](https://github.com/dktr0/Punctual) is an audio/visual livecoding language, we'll just be using the visuals today*
+
+`circle` creates a circle
+
+To make a circle appear on our screen, we need to tell it the **position**, and the **diameter** we want it to have, and the **output** we want it to use
+
+```
+circle [0,0] 0.5 >> video
+```
+
+You can move it around by changing the **position** values - `-1.0` to `1.0` keeps it on screen
+
+```
+circle [-0.5,0.2] 0.5 >> video
+```
+
+You can make it bigger or smaller by changing the **diameter** value
+
+```
+circle [0,0] 0.9 >> video
+```
+
+Here are some more shapes to try - see the [Punctual Reference](https://github.com/dktr0/Punctual/blob/main/REFERENCE.md) for more information
+
+| `hline` | `vline` | `point` | `rect` |
+|---------|---------|---------|----------|
+
+Here are some more **outputs** to try
+
+| `red` | `green` | `blue` | `hsv` | `rgb` | `rgba` |
+|-------|---------|--------|-------|-------|--------|
+
+
+You can make more circles (shapes) by adding more values
+```
+circle [0,0,-0.5,0,0.5,0] 0.4 >> video
+```
+
+You can use continuously changing values with **graphs**. Here is a `sine` graph changing the diameter
+
+```
+circle [0,0] (sin 0.5) >> video
+```
+
+Here are some more graphs
+
+| `tri` | `square` | `time` | `prox` |
+|-------|----------|--------|--------|
+
+
+Some graphs are controlled by the audio that is playing. Make a beat in a minitidal cell, then use `lo` as a Punctual graph to control position on the **y-axis**
+
+```
+circle [0, lo] 0.5 >> video
+```
+
+Here are some more audio reactive graphs
+
+| `mid` | `fft fx` | `fft fy` | `fft fxy` |
+|-------|----------|----------|-----------|
+
+Continuous and audio reactive graphs can be used in place of any value
+
+&nbsp;
+
+You can create a tiled pattern of your shape using `tile`
+
+```
+tile 4 $ circle [0,0] 0.9 >> video
+```
+
+Here are some other **transform functions**
+
+| `spin` | `zoom` | `move` |
+|--------|--------|--------|
+
+
+
