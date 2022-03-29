@@ -126,5 +126,5 @@ More functions to try:
 
 More effects to try:
 
-| `# gain` | `# end` | `vowel` | `pan` | `hcutoff` | `cutoff` |
-|----------|---------|---------|-------|-----------|----------|
+| `# gain` | `# end` | `# vowel` | `# pan` | `# hcutoff` | `# cutoff` |
+|----------|---------|-----------|---------|-------------|------------|
