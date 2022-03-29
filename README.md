@@ -189,7 +189,7 @@ Here are some more graphs
 |-------|----------|--------|--------|
 
 
-Some graphs are controlled by the audio that is playing. Make a beat in a minitidal cell, then use `lo` as a Punctual graph to control position on the **y-axis**
+Some graphs are controlled by the audio that is playing. Make a beat in a minitidal cell, then use `lo` as a Punctual graph to change the position of the `circle`
 
 ```
 circle [0, lo] 0.5 >> video
