@@ -249,7 +249,9 @@ circle [saw 0.5,0] 0.9 * [prox 0.5,1,0.5] >> hsv;
 0.95 >> fdbk
 ```
 
-Congratulations! You've completed the DECODED Lite course!
+---
+
+**Congratulations!** You've completed the DECODED Lite course!
 
 If you would like to continue learning more about livecoding with Minitidal, Punctual and Estuary, check out:
 
