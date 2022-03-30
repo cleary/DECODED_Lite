@@ -209,8 +209,8 @@ circle [0, lo] 0.5 >> rgb;
 
 Here are some more audio reactive graphs to try
 
-| `mid` | `fft fx` | `fft fy` | `fft fxy` |
-|-------|----------|----------|-----------|
+| `mid` | `hi` | `fft fx` | `fft fy` | `fft fxy` |
+|-------|------|----------|----------|-----------|
 
 Remember, continuous and audio reactive graphs can be used in place of **any** value
 
