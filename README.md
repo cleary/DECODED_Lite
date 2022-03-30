@@ -4,9 +4,11 @@ A short, introductory workshop to livecoding in Estuary
 
 ## Audio Workshop
 
+[Introduction to Livecoded Audio with Minitidal](./audio-minitidal.md)
 
 ## Visual Workshop
 
+[Introduction to Livecoded Visuals with Punctual](./visual-punctual.md)
 
 
 ## Resources
