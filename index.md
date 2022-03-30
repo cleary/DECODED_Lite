@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# DECODED Lite --
 
-You can use the [editor on GitHub](https://github.com/cleary/litedecoded-livecode-workshop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A short, introductory workshop to livecoding in Estuary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Audio Workshop
 
-### Markdown
+[Introduction to Livecoded Audio with Minitidal](./audio-minitidal.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Visual Workshop
 
-```markdown
-Syntax highlighted code block
+[Introduction to Livecoded Visuals with Punctual](./visual-punctual.md)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Resources
 
-1. Numbered
-2. List
+If you would like to continue learning more about livecoding with Minitidal, Punctual and Estuary, check out:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cleary/litedecoded-livecode-workshop/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ - https://decoded.grbt.com.au for a detailed course
+ - https://tidalcycles.org/docs/ for more Tidalcycles/Minitidal information
+ - https://github.com/dktr0/Punctual for more Punctual information
+ - https://github.com/cleary/livecode/ for heaps of my own examples
+ - For any questions, I can be contacted via email
