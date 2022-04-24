@@ -128,7 +128,7 @@ circle [saw 0.5,0] 0.9 * [prox 0.5,1,0.5] >> hsv;
 
 If you would like to continue learning more about livecoding with Minitidal, Punctual and Estuary, check out:
 
- - https://decoded.grbt.com.au for a detailed course
+ - https://decoded.livecode.au for a detailed course
  - https://github.com/dktr0/Punctual for more Punctual information
  - https://github.com/cleary/livecode/ for heaps of my own examples
  - For any questions, I can be contacted via email

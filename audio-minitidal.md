@@ -118,7 +118,7 @@ More effects to try:
 
 If you would like to continue learning more about livecoding with Minitidal, Punctual and Estuary, check out:
 
- - https://decoded.grbt.com.au for a detailed course
+ - https://decoded.livecode.au for a detailed course
  - https://tidalcycles.org/docs/ for more Tidalcycles/Minitidal information
  - https://github.com/cleary/livecode/ for heaps of my own examples
  - For any questions, I can be contacted via email
