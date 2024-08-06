@@ -64,10 +64,10 @@ You can make more circles (shapes) by adding more values
 circle [0,0,-0.5,0,0.5,0] 0.4 >> add;
 ```
 
-You can get continuously changing values and use them in place of numbers. This is a `sin` graph changing the circle width
+You can get continuously changing values and use them in place of numbers. This is a `osc` graph changing the circle width
 
 ```
-circle [0,0] (sin 0.5) >> add;
+circle [0,0] (osc 0.5) >> add;
 ```
 
 Here are some more graphs to try
