@@ -2,6 +2,8 @@
 
 A short, introductory workshop to livecoding in Estuary
 
+https://decoded.livecode.au/#/lite/audio-minitidal
+
 ## Audio Workshop
 
 Open https://estuary.mcmaster.ca and enter "Solo Mode"
@@ -121,4 +123,5 @@ If you would like to continue learning more about livecoding with Minitidal, Pun
  - https://decoded.livecode.au for a detailed course
  - https://tidalcycles.org/docs/ for more Tidalcycles/Minitidal information
  - https://github.com/cleary/livecode/ for heaps of my own examples
+ - https://youtube.com/eulerroom for heaps of livecoding performances
  - For any questions, I can be contacted via email
